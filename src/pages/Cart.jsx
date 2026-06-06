@@ -84,7 +84,7 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                 </Link>
               </div>
             )}
-            {cart.length && (
+            {cart.length > 0 && (
               <div className="total">
                 <div className="total__item total__sub-total">
                   <span>Subtotal</span>
